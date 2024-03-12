@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#710C79" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview_member"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:elevation="8dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="-20dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="90dp"
+            android:background="#710C79"
+            android:layout_gravity="center"
+            android:elevation="8dp"
+            android:src="@drawable/logo5" />
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/autoScroll_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="3dp"
+        app:cardElevation="1dp">
+
+    <GridLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:useDefaultMargins="true"
+        android:layout_marginBottom="20dp"
+        tools:context=".MainActivity">
+
+        <!-- 첫 번째 이미지뷰 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginEnd="12dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/constellations"
+                android:id="@+id/btnStellar"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="-30dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="별자리"
+                android:textSize="13dp"
+                android:gravity="center"
+                android:fontFamily="@font/dream3"/>
+        </LinearLayout>
+
+        <!-- 두 번째 이미지뷰 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:orientation="vertical"
+            android:layout_margin="12dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/mbti"
+                android:id="@+id/btnMbti" android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="-30dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="13dp"
+                android:text="MBTI"
+                android:gravity="center"
+                android:fontFamily="@font/dream3"/>
+        </LinearLayout>
+
+        <!-- 세 번째 이미지뷰 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/psychology"
+                android:id="@+id/btnPsychology" android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="-30dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="심리 테스트"
+                android:textSize="13dp"
+                android:gravity="center"
+                android:fontFamily="@font/dream3"/>
+        </LinearLayout>
+
+        <!-- 네 번째 이미지뷰 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginEnd="12dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/taroicon"
+                android:id="@+id/btnTaro" android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="-30dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="오늘의 타로"
+                android:textSize="13dp"
+                android:gravity="center"
+                android:fontFamily="@font/dream3"/>
+        </LinearLayout>
+
+        <!-- 다섯 번째 이미지뷰 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:orientation="vertical"
+            android:layout_margin="12dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/newyear"
+                android:id="@+id/btnNewyear" android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="-30dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="신년운세"
+                android:textSize="13dp"
+                android:gravity="center"
+                android:fontFamily="@font/dream3"/>
+        </LinearLayout>
+
+        <!-- 여섯 번째 이미지뷰 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:orientation="vertical"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:layout_marginEnd="20dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/thinking"
+                android:id="@+id/btnDream" android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="-30dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="꿈 해몽"
+                android:textSize="13dp"
+                android:gravity="center"
+                android:fontFamily="@font/dream3"/>
+        </LinearLayout>
+
+
+    </GridLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btnCookie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="1dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/cookie_banner"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        />
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+

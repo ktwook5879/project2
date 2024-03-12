@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/darkspace"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/queenofswords"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="합리적이고 공정한"
+            android:textStyle="bold"
+            android:textColor="#9999FF"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#C0C0C0"
+            android:layout_gravity="center"
+            android:text=" 당신의 생각이 미래에 중요한 역할을 할 것임을 나타냅니다. 다가오는 상황들은 당신의 감정적인 반응을 억제하도록 요구할지도 모릅니다. 그것은 당신의 통제력을 발휘하는 연습이 될 것이며, 그로 인해 결과는 더 나아질 것입니다." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="애정운"
+            android:textColor="#FF6666"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:text=" 당신이 연애 중이라면, 당신의 연인 관계는 의심할 여지없이 매우 성숙한 관계일 것입니다. 서로에게 도움이되는 긍정적 관계이며 지적이고 객관적인 결정을 내릴 수 있습니다. 만약 싱글아리면 당신은 매우 독립적이기 때문에, 당신의 현재 상태에 자신감을 가질 수 있습니다. 자신이나 잠재적인 새 연인에게 분명한 이익이 없는 경우, 서두를 필요는 없습니다."
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="금전운"
+            android:textColor="#CCCC00"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:text=" 당신의 재정적인 결정은 무엇보다도 계산된 논리에 기초합니다. 당신은 개인적인 상황에 대한 확률과 잠재적인 영향을 정확하게 이해하고 있을 것입니다."
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="건강운"
+            android:textColor="#00CC00"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:text=" 건강에 대해 매우 긍정적인 카드이지만, 한편으로는 당신이 감정을 억누르고 있다는 것을 의미할지도 모릅니다. 이것은 당신의 건강한 삶에 부정적인 영향을 미칠 수 있습니다. 당신은 충분히 능력이 있으니, 주저하지 말고 자신의 두려움을 분석하고, 건강을 위한 방법들을 탐구해 보는 것이 좋습니다."
+            android:layout_gravity="center"/>
+        <ImageView
+            android:id="@+id/btnShare"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/darkspace"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/thestar"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="지혜와 부동"
+            android:textStyle="bold"
+            android:textColor="#9999FF"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#C0C0C0"
+            android:layout_gravity="center"
+            android:text=" 운이 좋아져 지금 선택하는 것이 좋은 결과를 가져올 것임을 나타냅니다.
+마음속으로 따라야 할 올바른 길을 이미 알고 있기 때문에 긍정적인 전망이 당신을 기다리고 있습니다 !" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="애정운"
+            android:textColor="#FF6666"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:text=" 싱글일 경우 오래 걸리지 않아 좋은 연인을 만날 것입니다.
+연애중일 경우 한 단계 더 나아가야 할 때입니다."
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="금전운"
+            android:textColor="#CCCC00"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:text=" 경제적으로 좋은 시기입니다.
+무한한 행운을 상징하지는 않기 때문에 적은 투자를 통한 작은 도약이 결실을 맺을 것이며,
+위험을 잘 계산하여 재정을 관리하는 편이 바람직합니다."
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="건강운"
+            android:textColor="#00CC00"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:text=" 별 카드는 건강에 관한 한 가장 좋은 카드 중 하나입니다.
+사소한 고민이 있었다면 간단한 검진으로도 안심할 수 있습니다."
+            android:layout_gravity="center"/>
+        <ImageView
+            android:id="@+id/btnShare"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+</ScrollView>
+

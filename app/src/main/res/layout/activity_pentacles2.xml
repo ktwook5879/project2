@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/darkspace"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/pentacles2"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="계산된 위험"
+            android:textStyle="bold"
+            android:textColor="#9999FF"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#C0C0C0"
+            android:layout_gravity="center"
+            android:text=" 이 카드는 삶의 균형을 유지하는 것의 중요성을 강조합니다. 동시에, 이 카드는 당신이 흥미진진하고 예상치 못한 새로운 모험에 직면해 있다는 것을 나타낼 수도 있습니다. 여행과 관련된 것일 수도 있는데, 그 새로운 모험은 모든 면에서 보람을 느끼게 해 줄 것입니다." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="애정운"
+            android:textColor="#FF6666"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:text=" 당신이 사랑에 충분한 에너지나 시간을 쏟지 않고 있다는 것을 암시합니다. 당신의 삶은 너무 산만하기 때문에 삶에 균형을 잡고, 인생에서 당신의 우선순위를 잘 생각해 봐야 합니다."
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="금전운"
+            android:textColor="#CCCC00"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:text=" 당신은 저축이나 투자를 다양화해야 할 때입니다. 모든 계란을 한 바구니에 담아두지 않겠다는 생각으로 말입니다. 다가오는 재정적인 결정에 신중하다면, 당신은 올바른 선택을 할 수 있을 것입니다."
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="건강운"
+            android:textColor="#00CC00"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:text=" 당신이 일과 개인 생활의 균형을 맞춰, 자신의 건강을 더욱 살펴야 한다는 것을 의미합니다. 당신이 건강에 더 많은 주의를 기울이지 않는다면, 머지않아 꽤 심각한 문제들이 발생할 수 있습니다."
+            android:layout_gravity="center"/>
+        <ImageView
+            android:id="@+id/btnShare"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/darkspace"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/thehighpriestess"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="지혜와 움직일 수 없는 것"
+            android:textStyle="bold"
+            android:textColor="#9999FF"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#C0C0C0"
+            android:layout_gravity="center"
+            android:text=" 여사제 카드는 숨겨진 비밀스러운 것들을 직관하고 해석하는 것을 나타냅니다.
+조금 더 신중히 생각할 필요를 나타내며 남들에게 드러내지 못하는 점이 문제가 될 수 있습니다.
+" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="애정운"
+            android:textColor="#FF6666"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:text=" 비밀리에 열애가 이루어 진다거나 예상치 못한 행복이 일어날 것을 의미할 수도 있습니다
+당신이나 당신의 파트너가 모두 내성적이며, 조용한 경향을 띄고 있습니다."
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="금전운"
+            android:textColor="#CCCC00"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:text=" 금전적인 부분이 빠듯하거나 수입이 예상대로 들어오지 않을 수 있습니다.
+미래와 재정적인 부분을 다른 사람과 상의할 때는 조심해야 합니다."
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="건강운"
+            android:textColor="#00CC00"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:text=" 환경의 변화로 인해 건강 균형이 깨질 수 있습니다.
+밝혀지지 않은 건강 문제가 있을 수 있으니 건강 검진을 통해 문제가 있는지 파악하고 조치를 취하는 것이 좋습니다 !"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:id="@+id/btnShare"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+</ScrollView>

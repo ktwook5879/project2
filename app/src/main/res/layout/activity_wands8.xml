@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/darkspace"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:src="@drawable/wands8"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="즉각적인 행동"
+            android:textStyle="bold"
+            android:textColor="#9999FF"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#C0C0C0"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text=" 예상치 못한 새로운 성장 기회가 다가오고 있습니다. 지금은 행동을 취하기에 좋은 시기이지만 충동적으로 행동하는 것은 피해야 합니다. 또한 당신이 가까운 미래에 중요한 소식을 받을 것을 암시하고 있습니다." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="애정운"
+            android:textColor="#FF6666"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:text=" 운명적 사랑이 당신에게로 향하고 있으며 그런 로맨스의 지속 가능 여부는 당신에게 달려 있습니다. 만약 연애 중이라면 곧 중요한 소식을 듣게 될 것이며 이것은 약혼이나 새로운 아기를 의미할 수도 있습니다."
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="금전운"
+            android:textColor="#CCCC00"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:text=" 최근 당신의 재정에 많은 우여곡절이 있었을 것입니다. 새로운 투자를 피하고 재정적 목표에 대해 생각해 보아야합니다."
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="건강운"
+            android:textColor="#00CC00"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:text=" 새로운 식이요법이나 운동요법 같은 생활습관 변화가 눈에 띄는 결과를 빠르게 가져다 줄 것을 나타내고 있습니다. 그러니 희망을 버리거나 기다리지 말고 신속하게 행동으로 옮겨야 할 때입니다."
+            android:layout_gravity="center"/>
+        <ImageView
+            android:id="@+id/btnShare"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+</ScrollView>
+

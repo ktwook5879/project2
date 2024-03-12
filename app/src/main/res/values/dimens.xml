@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pageMargin">20dp</dimen>
+    <dimen name="offset">20dp</dimen>
+    <dimen name="pageMarginAndOffset">40dp</dimen>
+    <dimen name="frameSize">320dp</dimen>
+
+    <dimen name="question_text_height">35dp</dimen>
+    <dimen name="answer_text_size">10dp</dimen>
+    <dimen name="answer_text_space">15dp</dimen>
+    <dimen name="answer_question_space">1dp</dimen>
+
+    <dimen name="linear_layout_padding">16dp</dimen>
+</resources>

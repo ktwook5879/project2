@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.bitc.project1.mental.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_quest1Fragment"
+            app:destination="@id/quest1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quest1Fragment"
+        android:name="com.bitc.project1.mental.Quest1Fragment"
+        android:label="fragment_quest1"
+        tools:layout="@layout/fragment_quest1" >
+        <action
+            android:id="@+id/action_quest1Fragment_to_quest2Fragment"
+            app:destination="@id/quest2Fragment" />
+        <action
+            android:id="@+id/action_quest1Fragment_to_quest4Fragment"
+            app:destination="@id/quest4Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quest2Fragment"
+        android:name="com.bitc.project1.mental.Quest2Fragment"
+        android:label="fragment_quest2"
+        tools:layout="@layout/fragment_quest2" >
+        <action
+            android:id="@+id/action_quest2Fragment_to_quest5Fragment"
+            app:destination="@id/quest5Fragment" />
+        <action
+            android:id="@+id/action_quest2Fragment_to_quest3Fragment"
+            app:destination="@id/quest3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quest4Fragment"
+        android:name="com.bitc.project1.mental.Quest4Fragment"
+        android:label="fragment_quest4"
+        tools:layout="@layout/fragment_quest4" >
+        <action
+            android:id="@+id/action_quest4Fragment_to_quest9Fragment"
+            app:destination="@id/quest9Fragment" />
+        <action
+            android:id="@+id/action_quest4Fragment_to_quest6Fragment"
+            app:destination="@id/quest6Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quest3Fragment"
+        android:name="com.bitc.project1.mental.Quest3Fragment"
+        android:label="fragment_quest3"
+        tools:layout="@layout/fragment_quest3" >
+        <action
+            android:id="@+id/action_quest3Fragment_to_quest5Fragment"
+            app:destination="@id/quest5Fragment" />
+        <action
+            android:id="@+id/action_quest3Fragment_to_quest7Fragment"
+            app:destination="@id/quest7Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quest5Fragment"
+        android:name="com.bitc.project1.mental.Quest5Fragment"
+        android:label="fragment_quest5"
+        tools:layout="@layout/fragment_quest5" >
+        <action
+            android:id="@+id/action_quest5Fragment_to_quest4Fragment"
+            app:destination="@id/quest4Fragment" />
+        <action
+            android:id="@+id/action_quest5Fragment_to_quest6Fragment"
+            app:destination="@id/quest6Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quest9Fragment"
+        android:name="com.bitc.project1.mental.Quest9Fragment"
+        android:label="fragment_quest9"
+        tools:layout="@layout/fragment_quest9" >
+        <action
+            android:id="@+id/action_quest9Fragment_to_quest10Fragment"
+            app:destination="@id/quest10Fragment" />
+        <action
+            android:id="@+id/action_quest9Fragment_to_quest8Fragment"
+            app:destination="@id/quest8Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quest6Fragment"
+        android:name="com.bitc.project1.mental.Quest6Fragment"
+        android:label="fragment_quest6"
+        tools:layout="@layout/fragment_quest6" >
+        <action
+            android:id="@+id/action_quest6Fragment_to_quest9Fragment"
+            app:destination="@id/quest9Fragment" />
+        <action
+            android:id="@+id/action_quest6Fragment_to_quest10Fragment"
+            app:destination="@id/quest10Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quest7Fragment"
+        android:name="com.bitc.project1.mental.Quest7Fragment"
+        android:label="fragment_quest7"
+        tools:layout="@layout/fragment_quest7" >
+        <action
+            android:id="@+id/action_quest7Fragment_to_quest6Fragment"
+            app:destination="@id/quest6Fragment" />
+        <action
+            android:id="@+id/action_quest7Fragment_to_quest11Fragment"
+            app:destination="@id/quest11Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quest10Fragment"
+        android:name="com.bitc.project1.mental.Quest10Fragment"
+        android:label="fragment_quest10"
+        tools:layout="@layout/fragment_quest10" >
+        <action
+            android:id="@+id/action_quest10Fragment_to_quest13Fragment"
+            app:destination="@id/quest13Fragment" />
+        <action
+            android:id="@+id/action_quest10Fragment_to_quest8Fragment"
+            app:destination="@id/quest8Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quest8Fragment"
+        android:name="com.bitc.project1.mental.Quest8Fragment"
+        android:label="fragment_quest8"
+        tools:layout="@layout/fragment_quest8" >
+        <action
+            android:id="@+id/action_quest8Fragment_to_quest12Fragment"
+            app:destination="@id/quest12Fragment" />
+        <action
+            android:id="@+id/action_quest8Fragment_to_quest13Fragment"
+            app:destination="@id/quest13Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quest11Fragment"
+        android:name="com.bitc.project1.mental.Quest11Fragment"
+        android:label="fragment_quest11"
+        tools:layout="@layout/fragment_quest11" >
+        <action
+            android:id="@+id/action_quest11Fragment_to_quest15Fragment"
+            app:destination="@id/quest15Fragment" />
+        <action
+            android:id="@+id/action_quest11Fragment_to_quest13Fragment"
+            app:destination="@id/quest13Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quest12Fragment"
+        android:name="com.bitc.project1.mental.Quest12Fragment"
+        android:label="fragment_quest12"
+        tools:layout="@layout/fragment_quest12" >
+        <action
+            android:id="@+id/action_quest12Fragment_to_quest16Fragment"
+            app:destination="@id/quest16Fragment" />
+        <action
+            android:id="@+id/action_quest12Fragment_to_quest17Fragment"
+            app:destination="@id/quest17Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quest13Fragment"
+        android:name="com.bitc.project1.mental.Quest13Fragment"
+        android:label="fragment_quest13"
+        tools:layout="@layout/fragment_quest13" >
+        <action
+            android:id="@+id/action_quest13Fragment_to_quest14Fragment"
+            app:destination="@id/quest14Fragment" />
+        <action
+            android:id="@+id/action_quest13Fragment_to_quest12Fragment"
+            app:destination="@id/quest12Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quest19Fragment"
+        android:name="com.bitc.project1.mental.Quest19Fragment"
+        android:label="fragment_quest19"
+        tools:layout="@layout/fragment_quest19" >
+        <action
+            android:id="@+id/action_quest19Fragment_to_quest18Fragment"
+            app:destination="@id/quest18Fragment" />
+        <action
+            android:id="@+id/action_quest19Fragment_to_test4ResultFragment"
+            app:destination="@id/test4ResultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quest14Fragment"
+        android:name="com.bitc.project1.mental.Quest14Fragment"
+        android:label="fragment_quest14"
+        tools:layout="@layout/fragment_quest14" >
+        <action
+            android:id="@+id/action_quest14Fragment_to_quest17Fragment"
+            app:destination="@id/quest17Fragment" />
+        <action
+            android:id="@+id/action_quest14Fragment_to_quest19Fragment"
+            app:destination="@id/quest19Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quest15Fragment"
+        android:name="com.bitc.project1.mental.Quest15Fragment"
+        android:label="fragment_quest15"
+        tools:layout="@layout/fragment_quest15" >
+        <action
+            android:id="@+id/action_quest15Fragment_to_quest14Fragment"
+            app:destination="@id/quest14Fragment" />
+        <action
+            android:id="@+id/action_quest15Fragment_to_quest19Fragment"
+            app:destination="@id/quest19Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quest16Fragment"
+        android:name="com.bitc.project1.mental.Quest16Fragment"
+        android:label="fragment_quest16"
+        tools:layout="@layout/fragment_quest16" >
+        <action
+            android:id="@+id/action_quest16Fragment_to_test4ResultFragment"
+            app:destination="@id/test4ResultFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/quest17Fragment"
+        android:name="com.bitc.project1.mental.Quest17Fragment"
+        android:label="fragment_quest17"
+        tools:layout="@layout/fragment_quest17" >
+        <action
+            android:id="@+id/action_quest17Fragment_to_quest18Fragment"
+            app:destination="@id/quest18Fragment" />
+        <action
+            android:id="@+id/action_quest17Fragment_to_quest16Fragment"
+            app:destination="@id/quest16Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quest18Fragment"
+        android:name="com.bitc.project1.mental.Quest18Fragment"
+        android:label="fragment_quest18"
+        tools:layout="@layout/fragment_quest18" >
+        <action
+            android:id="@+id/action_quest18Fragment_to_test4ResultFragment"
+            app:destination="@id/test4ResultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/test4ResultFragment"
+        android:name="com.bitc.project1.mental.Test4ResultFragment"
+        android:label="fragment_test4_result"
+        tools:layout="@layout/fragment_test4_result" >
+        <action
+            android:id="@+id/action_test4ResultFragment_to_quest1Fragment"
+            app:destination="@id/quest1Fragment" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">바바</string>
+    <string-array name="months_array">
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+
+    <string-array name="days_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </string-array>
+
+    <string name="hearttest">간단\n심리테스트</string>
+    <string name="result">결과</string>
+    <string name="question1">Q1. 만약 4가지 일이 동시에 일어난다면\n어떤 것부터 해결할 것인가?</string>
+    <string name="question3">Q3. 나, 다리(bridge), 토끼, 열쇠\n\n위 4가지를 다 넣어서 문장을 만들어보세요.</string>
+    <string name="quest1result">나 = 본인\n\n다리 = 인생\n\n토끼 = 배우자\n\n열쇠 = 재물</string>
+    <string name="sim4">무의식 테스트</string>
+    <string name="sim4_q1">어떤 여성이 헤드폰을 낀 채로\n\n 무언가 열심히 듣고 있습니다.\n\n그 여성은 무엇을 듣고 있을까요?</string>
+    <string name="sim4_q2">목욕을 할 때,\n\n나도 모르게 콧노래를 흥얼거리며\n\n목욕할 때가 있다.</string>
+    <string name="sim4_q3">전화벨이 울리고 있습니다.\n\n대체적으로 어떻게 행동하나요?</string>
+    <string name="sim4_q4">동물원의 코끼리를 떠올려보세요.\n\n 어떤 게 가장 먼저 떠오르나요?</string>
+    <string name="sim4_q5">배낭 여행을 다녀온 친구가 있습니다.\n\n 만약 선물을 사왔다면\n\n 다음 중 어떤 걸 받고 싶나요?</string>
+    <string name="sim4_q6">최근 생각지도 못한 사람으로부터\n\n 연락을 받은 적이 있나요?</string>
+    <string name="sim4_q7">방 분위기를 새롭게 하고 싶을 때\n\n 어느 쪽을 바꾸겠습니까?</string>
+    <string name="sim4_q8">당신이 친구를 사귈 때\n\n 가장 염두에 두는 것은 무엇인가요?</string>
+    <string name="sim4_q9">색깔이 있는 꿈을 자주 꾸나요?</string>
+    <string name="sim4_q10">당신의 잠옷은 어떤 옷인가요?</string>
+    <string name="sim4_q11">TV를 보면서\n\n공부나 일을 할수 있나요?</string>
+    <string name="sim4_q12">요리에 자신이 있나요?</string>
+    <string name="sim4_q13">다시 태어난다면, 지금의 성별이 아닌\n\n 다른 성별로 태어나고 싶으신가요?</string>
+    <string name="sim4_q14">여성은 남성에 비해 열등하다고\n\n생각하시나요?</string>
+    <string name="sim4_q15">이성과 싸운 경험이 있나요?</string>
+    <string name="sim4_q16">어떤 스타일의 신발을 선호하나요?</string>
+    <string name="sim4_q17">부모님을 존경하시나요?</string>
+    <string name="sim4_q18">개와 고양이 중\n\n어느 쪽을 더 좋아 하나요?</string>
+    <string name="sim4_q19">이성과의 교제에 실패했던 일이\n\n 두 번 이상 있나요?</string>
+
+    <string name="sim4_q1_1">음악</string>
+    <string name="sim4_q1_2">영어 회화</string>
+    <string name="sim4_q3_1">곧바로 받는다</string>
+    <string name="sim4_q3_2">몇 번 울린 후 받는다</string>
+    <string name="sim4_q4_1">눈</string>
+    <string name="sim4_q4_2">코</string>
+    <string name="sim4_q5_1">양말</string>
+    <string name="sim4_q5_2">초콜릿</string>
+    <string name="sim4_q7_1">커튼</string>
+    <string name="sim4_q7_2">옷장</string>
+    <string name="sim4_q8_1">다정함</string>
+    <string name="sim4_q8_2">유능함</string>
+    <string name="sim4_q10_1">일반 잠옷</string>
+    <string name="sim4_q10_2">편한 평상복</string>
+    <string name="sim4_q16_1">운동화</string>
+    <string name="sim4_q16_2">구두</string>
+    <string name="sim4_q18_1">개</string>
+    <string name="sim4_q18_2">고양이</string>
+    <string name="sim4_yes">YES</string>
+    <string name="sim4_no">NO</string>
+
+    <string name="toilet">화장실</string>
+    <string name="animal">동물</string>
+    <string name="active">행동</string>
+    <string name="ghost">귀신시체</string>
+    <string name="body">신체</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

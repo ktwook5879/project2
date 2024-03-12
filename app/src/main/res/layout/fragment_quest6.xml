@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pupbackgra"
+    tools:context=".test4.Quest6Fragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:text="@string/sim4_q6"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:fontFamily="@font/dream4"
+            tools:layout_editor_absoluteX="124dp"
+            tools:layout_editor_absoluteY="89dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        tools:layout_editor_absoluteX="0dp">
+
+        <Button
+            android:id="@+id/btnYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sim4_yes"
+            android:fontFamily="@font/dream3"
+            android:layout_marginEnd="20dp"/>
+
+        <Button
+            android:id="@+id/btnNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dream3"
+            android:text="@string/sim4_no" />
+    </LinearLayout>
+
+</LinearLayout>

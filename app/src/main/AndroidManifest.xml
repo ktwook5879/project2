@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_baba_re3"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_baba_re3_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project1"
+        tools:targetApi="31">
+        <activity
+            android:name=".zodiac2.HwangsoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac2.JeonGalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac2.CheonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac2.VirginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac2.SazeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac2.SsangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac2.GeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac2.MulbyeongActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac2.MulgogiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac2.sasuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Dream2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac2.yangActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac2.yumsoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac2.ConMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CookieActivity"
+            android:exported="false" /> <!-- 심리테스트 -->
+        <activity
+            android:name=".dream.DreamMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mental.Test4MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mental.SimActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mental.SimT1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".mental.SimT1QuestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mental.SimT1ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mental.SimT2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".mental.SimT2QuestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mental.SimT2ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mental.SimT3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".mental.SimT3QuestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mental.SimT3ResultActivity"
+            android:exported="false" /> <!-- mbti -->
+        <activity
+            android:name=".mbti.MbtiMainActivity"
+            android:exported="false"
+            android:theme="@style/Base.Theme.Project1" />
+        <activity
+            android:name=".mbti.is.MbtiISTJActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mbti.is.MbtiISTPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mbti.is.MbtiISFJActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mbti.is.MbtiISFPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mbti.in.MbtiINTPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mbti.in.MbtiINTJActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mbti.in.MbtiINFPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mbti.es.MbtiESTPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mbti.es.MbtiESTJActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mbti.es.MbtiESFJActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mbti.en.MbtiENTPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mbti.en.MbtiENTJActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mbti.in.MbtiINFJActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mbti.en.MbtiENFPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mbti.es.MbtiESFPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mbti.en.MbtiENFJActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mbti.is.MbtiISActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mbti.es.MbtiESActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mbti.in.MbtiINActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mbti.en.MbtiENActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mbti.QuizActivity"
+            android:exported="false" /> <!-- 별자리 -->
+        <activity
+            android:name=".zodiac.SagittariusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac.ScorpioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac.LibraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac.VirgoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac.LeoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac.GeminiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac.TaurusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac.AriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac.PiscesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac.AquariusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac.CapricornActivity"
+            android:exported="false" />
+        <activity
+            android:name=".zodiac.CancerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ConstellationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AutoScrollVPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BottomNaviActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FortuneMainActivity"
+            android:exported="false" /> <!-- 신년운세 -->
+        <activity
+            android:name=".newyear.AnimalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".newyear.DogActivity"
+            android:exported="false" />
+        <activity
+            android:name=".newyear.DragonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".newyear.GoatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".newyear.HorseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".newyear.MonkeyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".newyear.OxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".newyear.PigActivity"
+            android:exported="false" />
+        <activity
+            android:name=".newyear.RabbitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".newyear.RatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".newyear.RoosterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".newyear.SnakeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".newyear.TigerActivity"
+            android:exported="false" /> <!-- Tarot Card Activity -->
+        <activity
+            android:name=".card.PentaclesActivityPage"
+            android:exported="false" />
+        <activity
+            android:name=".card.PentaclesActivityQueen"
+            android:exported="false" />
+        <activity
+            android:name=".card.PentaclesActivityKing"
+            android:exported="false" />
+        <activity
+            android:name=".card.PentaclesActivityKnight"
+            android:exported="false" />
+        <activity
+            android:name=".card.PentaclesActivity10"
+            android:exported="false" />
+        <activity
+            android:name=".card.PentaclesActivity9"
+            android:exported="false" />
+        <activity
+            android:name=".card.PentaclesActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".card.PentaclesActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".card.PentaclesActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".card.PentaclesActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".card.PentaclesActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".card.PentaclesActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".card.PentaclesActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".card.SwordsActivityPage"
+            android:exported="false" />
+        <activity
+            android:name=".card.SwordsActivityKnight"
+            android:exported="false" />
+        <activity
+            android:name=".card.SwordsActivityQueen"
+            android:exported="false" />
+        <activity
+            android:name=".card.SwordsActivityKing"
+            android:exported="false" />
+        <activity
+            android:name=".card.SwordsActivity10"
+            android:exported="false" />
+        <activity
+            android:name=".card.SwordsActivity9"
+            android:exported="false" />
+        <activity
+            android:name=".card.SwordsActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".card.SwordsActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".card.SwordsActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".card.SwordsActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".card.SwordsActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".card.SwordsActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".card.SwordsActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".card.WandsActivityPage"
+            android:exported="false" />
+        <activity
+            android:name=".card.WandsActivityKnight"
+            android:exported="false" />
+        <activity
+            android:name=".card.WandsActivityQueen"
+            android:exported="false" />
+        <activity
+            android:name=".card.WandsActivityKing"
+            android:exported="false" />
+        <activity
+            android:name=".card.WandsActivity10"
+            android:exported="false" />
+        <activity
+            android:name=".card.WandsActivity9"
+            android:exported="false" />
+        <activity
+            android:name=".card.WandsActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".card.WandsActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".card.WandsActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".card.WandsActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".card.WandsActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".card.WandsActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".card.WandsActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".card.CupActivityQueen"
+            android:exported="false" />
+        <activity
+            android:name=".card.CupActivityKing"
+            android:exported="false" />
+        <activity
+            android:name=".card.CupActivityKnight"
+            android:exported="false" />
+        <activity
+            android:name=".card.CupActivityPage"
+            android:exported="false" />
+        <activity
+            android:name=".card.CupActivity10"
+            android:exported="false" />
+        <activity
+            android:name=".card.CupActivity9"
+            android:exported="false" />
+        <activity
+            android:name=".card.CupActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".card.CupActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".card.CupActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".card.CupActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".card.CupActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".card.CupActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".card.CupActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".card.PentaclesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.SwordsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.CupsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.WandsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.WorldActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.JudgementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.SunActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.MoonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.StarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.TowerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.DevilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.TemperanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.DeathActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.HangedManActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.JusticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.FortuneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.HermitActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.StrengthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.ChariotActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.LoversActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.HierophantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.EmperorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.EmpressActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.PriestessActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.MagicianActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.FoolActivity"
+            android:exported="false" />
+        <activity
+            android:name=".card.TaroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/Theme.App.Starting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

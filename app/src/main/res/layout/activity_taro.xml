@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/darkspace"
+    tools:context=".MainActivity">
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_above="@+id/bottomNavi">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/cardImage1"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/bb"
+                android:layout_marginStart="0dp"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:elevation="2dp"/>
+
+            <ImageView
+                android:id="@+id/cardImage2"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/bb"
+                android:layout_marginStart="-100dp"
+                android:layout_toEndOf="@+id/cardImage1"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:elevation="2dp"/>
+
+            <ImageView
+                android:id="@+id/cardImage3"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/bb"
+                android:layout_marginStart="-100dp"
+                android:layout_toEndOf="@+id/cardImage2"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:elevation="2dp"/>
+
+            <ImageView
+                android:id="@+id/cardImage4"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/bb"
+                android:layout_marginStart="-100dp"
+                android:layout_toEndOf="@+id/cardImage3"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:elevation="2dp"/>
+
+            <ImageView
+                android:id="@+id/cardImage5"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/bb"
+                android:layout_marginStart="-100dp"
+                android:layout_toEndOf="@+id/cardImage4"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:elevation="2dp"/>
+
+            <ImageView
+                android:id="@+id/cardImage6"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/bb"
+                android:layout_marginStart="-100dp"
+                android:layout_toEndOf="@+id/cardImage5"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:elevation="2dp"/>
+
+
+            <ImageView
+                android:id="@+id/cardImage7"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/bb"
+                android:layout_marginStart="-100dp"
+                android:layout_toEndOf="@+id/cardImage6"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:elevation="2dp"/>
+
+
+            <ImageView
+                android:id="@+id/cardImage8"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/bb"
+                android:layout_marginStart="-100dp"
+                android:layout_toEndOf="@+id/cardImage7"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:elevation="2dp"/>
+
+            <ImageView
+                android:id="@+id/cardImage9"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/bb"
+                android:layout_marginStart="-100dp"
+                android:layout_toEndOf="@+id/cardImage8"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:elevation="2dp"/>
+
+            <ImageView
+                android:id="@+id/cardImage10"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/bb"
+                android:layout_marginStart="-100dp"
+                android:layout_toEndOf="@+id/cardImage9"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:elevation="2dp"/>
+
+
+            <ImageView
+                android:id="@+id/cardImage11"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/bb"
+                android:layout_marginStart="-100dp"
+                android:layout_toEndOf="@+id/cardImage10"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:elevation="2dp"/>
+
+
+            <ImageView
+                android:id="@+id/cardImage12"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/bb"
+                android:layout_marginStart="-100dp"
+                android:layout_toEndOf="@+id/cardImage11"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:elevation="2dp"/>
+
+
+            <ImageView
+                android:id="@+id/cardImage13"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/bb"
+                android:layout_marginStart="-100dp"
+                android:layout_toEndOf="@+id/cardImage12"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:elevation="2dp"/>
+
+
+            <ImageView
+                android:id="@+id/cardImage14"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/bb"
+                android:layout_marginStart="-100dp"
+                android:layout_toEndOf="@+id/cardImage13"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:elevation="2dp"/>
+
+
+            <ImageView
+                android:id="@+id/cardImage15"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:src="@drawable/bb"
+                android:layout_marginStart="-100dp"
+                android:layout_toEndOf="@+id/cardImage14"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="fitXY"
+                android:elevation="2dp"/>
+
+        </RelativeLayout>
+
+    </HorizontalScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/menu_bottom" />
+
+    </RelativeLayout>
+
+</LinearLayout>

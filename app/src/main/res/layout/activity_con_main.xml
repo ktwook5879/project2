@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:alignmentMode="alignMargins"
+        android:columnOrderPreserved="false"
+        android:useDefaultMargins="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp">
+
+    <!-- 첫 번째 이미지뷰 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/yumso"
+            android:id="@+id/yumso"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="12.22~1.20"
+            android:textSize="13dp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <!-- 두 번째 이미지뷰 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/mulbyeong_card"
+            android:id="@+id/mul"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.21~2.19"
+            android:textSize="13dp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <!-- 세 번째 이미지뷰 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/mulgogi_card"
+            android:id="@+id/mulgogi"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.20~3.20"
+            android:textSize="13dp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/yang_card"
+            android:id="@+id/yang"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="3.21~4.20"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/hwang_card"
+            android:id="@+id/hwang"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.21~5.21"
+            android:textSize="13dp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <!-- 여섯 번째 이미지뷰 -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginStart="20dp"
+
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/ssang_card"
+            android:id="@+id/ssang"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5.22~6.21"
+            android:textSize="13dp"
+            android:gravity="center" />
+    </LinearLayout>
+<!--7번째-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginStart="20dp"
+
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/cancer_card"
+            android:id="@+id/ge"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6.22~7.22"
+            android:textSize="13dp"
+            android:gravity="center" />
+    </LinearLayout>
+<!--8번째-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginStart="20dp"
+
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/lion_card"
+            android:id="@+id/saza"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7.23~8.22"
+            android:textSize="13dp"
+            android:gravity="center" />
+    </LinearLayout>
+<!--9번째-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/virgin_card"
+            android:id="@+id/virgin"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="8.23~9.22"
+            android:textSize="13dp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <!--10번째-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginStart="20dp"
+
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/cheon_card"
+            android:id="@+id/cheon"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="9.23~10.22"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+    <!--11번째-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginStart="20dp"
+
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/jeongal_card"
+            android:id="@+id/jeongal"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10.23~11.21"
+            android:textSize="13dp"
+            android:gravity="center" />
+    </LinearLayout>
+    <!--12번째-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/sasu_card"
+            android:id="@+id/sasu"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="11.22~12.21"
+            android:textSize="13dp" />
+    </LinearLayout>
+
+</GridLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/bottomNavi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                app:menu="@menu/menu_bottom" />
+
+        </RelativeLayout>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+<!--        <item name="colorPrimary">#FFFFFF</item>-->
+<!--        <item name="colorOnPrimary">#FFFFFF</item> &lt;!&ndash; BottomNavigationView의 아이콘 및 텍스트 색상 &ndash;&gt;-->
+        <!-- 기타 테마 속성들... -->
+    </style>
+
+</resources>

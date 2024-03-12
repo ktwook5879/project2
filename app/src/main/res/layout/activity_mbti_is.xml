@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:id="@+id/mbtientitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="간단 성격 유형 검사"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:layout_marginBottom="40dp"/>
+
+            <!-- 문제 1 -->
+            <TextView
+                android:id="@+id/enquestion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11.일이 잘못될 때를 대비해 여러 대비책을 세우는 편이다."
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_below="@id/mbtientitle"/>
+
+            <RadioGroup
+                android:id="@+id/enradioGroup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/enquestion1"
+                android:layout_marginBottom="32dp"
+                android:layout_marginTop="8dp">
+
+                <RadioButton
+                    android:id="@+id/enradioButton1_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="그렇다"
+                    android:layout_marginStart="2dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton1_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="약간 그렇다"
+                    android:layout_marginStart="1dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton1_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="약간 아니다"
+                    android:layout_marginStart="1dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton1_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="아니다"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"/>
+
+            </RadioGroup>
+
+
+
+            <!-- 문제 2 -->
+            <TextView
+                android:id="@+id/enquestion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12.감정이 매우 빠르게 변하곤 한다."
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_below="@id/enradioGroup1"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="16dp" />
+
+            <RadioGroup
+                android:id="@+id/enradioGroup2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/enquestion2"
+                android:layout_marginBottom="32dp"
+                android:layout_marginTop="8dp">
+
+                <RadioButton
+                    android:id="@+id/enradioButton2_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="그렇다"
+                    android:layout_marginStart="2dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton2_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="약간 그렇다"
+                    android:layout_marginStart="1dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton2_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="약간 아니다"
+                    android:layout_marginStart="1dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton2_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="아니다"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"/>
+            </RadioGroup>
+            <!-- ... -->
+
+            <!-- 문제 3 -->
+            <TextView
+                android:id="@+id/enquestion3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13.해야 할 일을 마지막까지 미룰 때가 많다."
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_below="@id/enradioGroup2"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="16dp" />
+
+            <RadioGroup
+                android:id="@+id/enradioGroup3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/enquestion3"
+                android:layout_marginBottom="32dp"
+                android:layout_marginTop="8dp">
+
+                <RadioButton
+                    android:id="@+id/enradioButton3_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="그렇다"
+                    android:layout_marginStart="2dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton3_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="약간 그렇다"
+                    android:layout_marginStart="1dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton3_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="약간 아니다"
+                    android:layout_marginStart="1dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton3_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="아니다"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"/>
+            </RadioGroup>
+
+            <!-- 문제 4 -->
+            <TextView
+                android:id="@+id/enquestion4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="14.압박감이 심한 환경에서도 평정심을 유지하는 편이다."
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_below="@id/enradioGroup3"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="16dp" />
+
+            <RadioGroup
+                android:id="@+id/enradioGroup4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/enquestion4"
+                android:layout_marginBottom="32dp"
+                android:layout_marginTop="8dp">
+
+                <RadioButton
+                    android:id="@+id/enradioButton4_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="그렇다"
+                    android:layout_marginStart="2dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton4_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="약간 그렇다"
+                    android:layout_marginStart="1dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton4_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="약간 아니다"
+                    android:layout_marginStart="1dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton4_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="아니다"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"/>
+            </RadioGroup>
+
+            <!-- 문제 5 -->
+            <TextView
+                android:id="@+id/enquestion5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15.다른 사람이 울고 있는 모습을 보면 자신도 울고 싶어질 때가 있다."
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_below="@id/enradioGroup4"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="16dp" />
+
+            <RadioGroup
+                android:id="@+id/enradioGroup5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/enquestion5"
+                android:layout_marginBottom="32dp"
+                android:layout_marginTop="8dp">
+
+                <RadioButton
+                    android:id="@+id/enradioButton5_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="그렇다"
+                    android:layout_marginStart="2dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton5_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="약간 그렇다"
+                    android:layout_marginStart="1dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton5_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="약간 아니다"
+                    android:layout_marginStart="1dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton5_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="아니다"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"/>
+            </RadioGroup>
+
+            <!-- 문제6 -->
+            <TextView
+                android:id="@+id/enquestion6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="16.계획에 차질이 생기면 최대한 빨리 계획으로 돌아가기 위해 노력한다."
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_below="@id/enradioGroup5"/>
+
+            <RadioGroup
+                android:id="@+id/enradioGroup6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/enquestion6"
+                android:layout_marginBottom="32dp"
+                android:layout_marginTop="8dp">
+
+                <RadioButton
+                    android:id="@+id/enradioButton6_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="그렇다"
+                    android:layout_marginStart="2dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton6_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="약간 그렇다"
+                    android:layout_marginStart="1dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton6_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="약간 아니다"
+                    android:layout_marginStart="1dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton6_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="아니다"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"/>
+
+            </RadioGroup>
+
+            <!--문제7-->
+            <TextView
+                android:id="@+id/enquestion7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="17.상대방의 잘못이라는 것이 명백할 때도 상대방의 체면을 살려주기 위해 노력한다."
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_below="@id/enradioGroup6"/>
+
+            <RadioGroup
+                android:id="@+id/enradioGroup7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/enquestion7"
+                android:layout_marginBottom="32dp"
+                android:layout_marginTop="8dp">
+
+                <RadioButton
+                    android:id="@+id/enradioButton7_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="그렇다"
+                    android:layout_marginStart="2dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton7_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="약간 그렇다"
+                    android:layout_marginStart="1dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton7_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="약간 아니다"
+                    android:layout_marginStart="1dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton7_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="아니다"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"/>
+
+            </RadioGroup>
+
+            <!--문제8-->
+            <TextView
+                android:id="@+id/enquestion8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="18.일이 잘못될까봐 자주 걱정하는 편이다."
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_below="@id/enradioGroup7"/>
+
+            <RadioGroup
+                android:id="@+id/enradioGroup8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/enquestion8"
+                android:layout_marginBottom="32dp"
+                android:layout_marginTop="8dp">
+
+                <RadioButton
+                    android:id="@+id/enradioButton8_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="그렇다"
+                    android:layout_marginStart="2dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton8_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="약간 그렇다"
+                    android:layout_marginStart="1dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton8_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="약간 아니다"
+                    android:layout_marginStart="1dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton8_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="아니다"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"/>
+
+            </RadioGroup>
+
+            <!--문제9-->
+            <TextView
+                android:id="@+id/enquestion9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="19.일관성 있게 업무를 진행하기보다는 즉흥적인 에너지로 업무를 몰아서 처리하는 편이다."
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_below="@id/enradioGroup8"/>
+
+            <RadioGroup
+                android:id="@+id/enradioGroup9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/enquestion9"
+                android:layout_marginBottom="32dp"
+                android:layout_marginTop="8dp">
+
+                <RadioButton
+                    android:id="@+id/enradioButton9_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="그렇다"
+                    android:layout_marginStart="2dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton9_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="약간 그렇다"
+                    android:layout_marginStart="1dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton9_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="약간 아니다"
+                    android:layout_marginStart="1dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton9_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="아니다"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"/>
+            </RadioGroup>
+
+            <!-- 문제 10 -->
+            <TextView
+                android:id="@+id/enquestion10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20.자신의 의견과 다른 의견을 이해하기 위해 시간을 할애하는 편이다."
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_below="@id/enradioGroup9"/>
+
+            <RadioGroup
+                android:id="@+id/enradioGroup10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/enquestion10"
+                android:layout_marginBottom="32dp"
+                android:layout_marginTop="8dp">
+
+                <RadioButton
+                    android:id="@+id/enradioButton10_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="그렇다"
+                    android:layout_marginStart="2dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton10_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="약간 그렇다"
+                    android:layout_marginStart="1dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton10_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="약간 아니다"
+                    android:layout_marginStart="1dp"/>
+
+                <RadioButton
+                    android:id="@+id/enradioButton10_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="아니다"
+                    android:layout_marginStart="1dp"
+                    android:layout_marginEnd="1dp"/>
+            </RadioGroup>
+
+            <ImageView
+                android:id="@+id/backButton"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/enradioGroup10"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/arrow_circle_left" />
+
+            <ImageView
+                android:id="@+id/submitButton"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/enradioGroup10"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/floppy_disk" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

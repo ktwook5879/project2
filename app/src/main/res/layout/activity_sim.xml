@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pupbackgra"
+    tools:context=".mental.MainFragment">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="심리 테스트"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:fontFamily="@font/dream4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavi"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.298"
+        tools:layout_editor_absoluteX="0dp">
+
+        <Button
+            android:id="@+id/btnsim1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:text="우선순위 테스트"
+            android:fontFamily="@font/dream3"
+            tools:layout_editor_absoluteX="119dp"
+            tools:layout_editor_absoluteY="350dp" />
+
+        <Button
+            android:id="@+id/btnsim2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:text="상처 회복력 테스트"
+            android:fontFamily="@font/dream3"
+            tools:layout_editor_absoluteX="120dp"
+            tools:layout_editor_absoluteY="395dp" />
+
+        <Button
+            android:id="@+id/btnsim3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="간단 심리 테스트"
+            android:fontFamily="@font/dream3"
+            tools:layout_editor_absoluteX="124dp"
+            tools:layout_editor_absoluteY="302dp" />
+
+        <Button
+            android:id="@+id/btnsim4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="무의식 테스트"
+            android:fontFamily="@font/dream3"
+            tools:layout_editor_absoluteX="124dp"
+            tools:layout_editor_absoluteY="302dp" />
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/menu_bottom" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pupbackgra"
+    tools:context=".test4.Quest4Fragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:text="@string/sim4_q4"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:fontFamily="@font/dream4"
+            tools:layout_editor_absoluteX="124dp"
+            tools:layout_editor_absoluteY="89dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        tools:layout_editor_absoluteX="0dp">
+
+        <Button
+            android:id="@+id/btnEye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sim4_q4_1"
+            android:fontFamily="@font/dream3"
+            android:layout_marginEnd="20dp"/>
+
+        <Button
+            android:id="@+id/btnNose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dream3"
+            android:text="@string/sim4_q4_2" />
+    </LinearLayout>
+
+<!--    <ImageView-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:src="@drawable/basicnext"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.498"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+</LinearLayout>

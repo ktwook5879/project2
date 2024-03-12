@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pupbackgra"
+    android:orientation="vertical"
+    tools:context=".mental.Test4ResultFragment">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_above="@+id/bottomNavi"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/iv_type"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/letter_a" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/tv_contents"
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:fontFamily="@font/dream3"
+            android:text=" 당신은 무척 쾌활하며 사교성이 뛰어나, 누구에게나 사랑받는 인기인입니다.\n
+\n 다만, 적극적인 성격을 가진 덕에 모든 일에 리더 역할을 자처하지만,
+사소한 일에 끼어들어 쓸데 없는 참견을 하는 경우도 있습니다.\n
+\n 주변 사람들에게 성가진 존재가 되지 않도록 그 부분만 주의하세요"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-50dp"
+        android:layout_marginBottom="30dp"
+        android:columnCount="2">
+
+        <Button
+            android:id="@+id/btnBackToStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="처음으로"
+            android:fontFamily="@font/dream3"
+            android:layout_marginRight="16dp"/>
+
+        <Button
+            android:id="@+id/backtoSimList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="목록으로"
+            android:fontFamily="@font/dream3"
+            android:layout_column="1"
+            android:layout_gravity="center"/>
+    </GridLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:menu="@menu/menu_bottom" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
